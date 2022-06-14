@@ -25,26 +25,38 @@ console.log(adventurous);
 let food = 'ice cream';
 console.log(food);
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
-
+let pets = 4
+console.log(pets);
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-
+let friendsPets = 1;
+console.log(friendsPets);
 // 11 - Add two pets to your `pets` variable
-
+pets = pets + 2;
+console.log(pets);
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-
+let allowedPets = 10;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-
-
+if (adventurous === true) {
+    console.log('Adventures are great!!');
+} else {
+    console.log('How about we stay home?');
+}
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-
+if (luckyNumber === 2 && adventurous === true) {
+    console.log('Roll the dice!');
+} else {
+    console.log ('Do not roll the dice...') //had to put here to check if code worked.
+}
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
-
+if ( pets < allowedPets) {
+    console.log('I can have more pets!!')
+}
 // STRETCH GOALS:
 
 // 16 - Make a variable called `mostPets` and a conditional that
